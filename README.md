@@ -1,29 +1,40 @@
-# Saidazamkhon Rasulhujaev
+![Saidazamkhon Rasulhujaev — Backend & Full-stack Engineer](./profile-banner.jpg)
 
-**Backend & Full-stack Engineer · Founder of MONO Club**
+**Founder of MONO Club · Backend & full-stack engineer · Tashkent, Uzbekistan**
 
-I build backend systems and take products from data models and APIs through client apps and deployment. Based in Tashkent, Uzbekistan.
+[**View CV ↗**](./Saidazamkhon_Rasulhujaev_CV.pdf) · [Download PDF](./Saidazamkhon_Rasulhujaev_CV.pdf?raw=1) · [**MONO Club ↗**](https://club.mono-games.uz/)
 
-[View CV](./Saidazamkhon_Rasulhujaev_CV.pdf) · [Download PDF](./Saidazamkhon_Rasulhujaev_CV.pdf?raw=1) · [MONO Games](https://mono-games.uz/)
+## Selected work
 
-## Selected projects
+### MONO Club
+**Founder & Lead Engineer** · Software for PC gaming clubs
 
-### MONO Club · Founder & Lead Engineer
+I built the software that runs the club floor, from the front desk to the player's PC.
 
-A startup building software for PC gaming clubs. I built the staff dashboard, the billing and session backend, and the Windows launcher and agent that run on player PCs.
+- **Staff dashboard** — reservations, cash desk workflows, club-specific wallets and VIP pricing.
+- **Billing backend** — time purchases, extensions and refunds tied to server-side session state. Migrated existing wallet and session history to club-scoped accounts and verified tenant isolation against PostgreSQL.
+- **Player experience** — QR sign-in and game launch through a Windows launcher and workstation agent, plus an Expo companion app and its NestJS social service.
 
-- **Club operations** — staff roles, reservations, club-specific wallets and VIP pricing, and cash desk workflows.
-- **Session billing** — time purchases, extensions and refunds tied to server-side session state.
-- **Player experience** — QR sign-in, game launch on Windows, and an Expo mobile app backed by a NestJS social service.
+`C#` `ASP.NET Core` `PostgreSQL` `Windows` `React Native` `Docker`
 
-C# · ASP.NET Core · PostgreSQL · Windows · React Native · Docker
+### MONO Games
+**Creator & Full-stack Developer** · Browser gaming platform
 
-### MONO Games · Creator & Full-stack Developer
+Built and launched a platform for playing and creating browser games, with AI-assisted creation, community features and leaderboards. I built the Vue frontend, NestJS API and a PostgreSQL-backed generation pipeline with automated browser validation, retries and deployment.
 
-A [live browser gaming platform](https://mono-games.uz/) with AI-assisted game creation, community features, and leaderboards. I built the Vue frontend, NestJS API, and a PostgreSQL-backed generation pipeline with browser validation, retries, and automated deployment.
+`TypeScript` `Vue` `NestJS` `PostgreSQL` `Prisma` `Playwright`
 
-TypeScript · Vue · NestJS · PostgreSQL · Prisma · Playwright
+## Professional experience
 
-## Engineering experience
+### Akfa AI Lab · Backend Developer
+*Sep 2024 – Present*
 
-At **Akfa AI Lab**, I work on university management and gamification backends, including billing, payment integrations, and background processing. At **Citifuel**, I built React dashboards and CRM workflows for logistics and fuel operations.
+- Develop and maintain **AKFA UMS**, the backend for university admissions, student records, billing and reporting. Build NestJS APIs, model relational data and optimize PostgreSQL queries.
+- Build **1C, Bitrix24 and payment integrations**, including billing workflows and payment-status callbacks across systems.
+- Build the **GEM gamification backend** for achievements, streaks, leaderboards and a rewards marketplace, with Redis and Bull handling background jobs.
+
+### Citifuel · Frontend Developer
+*May 2024 – Nov 2025*
+
+- Built **React and TypeScript dashboards** for fuel-network and logistics operations, combining maps, filters, charts and tables for station, company and customer reporting.
+- Integrated REST APIs and built reusable CRM components using TanStack Query, Zustand, React Hook Form and Zod.
